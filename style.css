@@ -475,6 +475,7 @@ nav {
   }
   .home-text {
     padding: 0 100px;
+    margin-top: 22vw;
   }
   .container img {
     right: 100px;
@@ -496,6 +497,9 @@ nav {
   .swiper-button-next,
   .swiper-button-prev {
     margin: 0;
+  }
+  .home-text{
+    margin-top: 27vw;
   }
 }
 @media (max-width: 852px) {
@@ -542,6 +546,9 @@ nav {
   .products-container {
     grid-template-columns: repeat(auto-fit, minmax(244px, auto));
   }
+  .home-text{
+    margin-top: 27vw;
+  }
 }
 @media (max-width: 712px) {
   .container img {
@@ -569,11 +576,17 @@ nav {
   .customers h2 {
     font-size: 1.2rem;
   }
+  .home-text{
+    margin-top: 27vw;
+  }
 }
 @media (max-width: 642px) {
   .container img {
     right: 0;
     width: 370px;
+  }
+  .home-text{
+    margin-top: 27vw;
   }
 }
 @media (max-width: 546px) {
@@ -583,10 +596,13 @@ nav {
     height: 820px;
     object-fit: contain;
   }
+  .home-text{
+    margin-top: 27vw;
+  }
 }
 @media (max-width: 370px) {
   nav {
-    padding: 20px 5px;
+    padding: 10px 5px;
   }
   .logo {
     font-size: 1rem;
